@@ -28,14 +28,14 @@
     
 <div class="login-box">
   <h3>Log in</h3>
-  <form action="/login" method="POST">
-    <label for="username">Lietotājvārds</label>
-    <input type="text" id="username" name="username" required>
+  <form>
+    <label for="name">Lietotājvārds</label>
+    <input type="text" id="user" name="name" required />
 
     <label for="password">Parole</label>
-    <input type="password" id="password" name="password" required
+    <input type="password" id="pass" name="password" required />
       
-      <button type="submit">Log in</button>     
+      <button oneclick="login()">Log in</button>     
       </form>
 </div>
   
@@ -44,7 +44,8 @@
      <a href="Sudzibaspieteikums.html"><b>Sūdzības formas pieteikums</b></a>
    </footer>
    </div>
-  
-  <script src="script.js"></script>
+
+   <script src="script.js"></script>  
+
 </body>
 </html>
