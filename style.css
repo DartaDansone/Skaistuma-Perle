@@ -2,3 +2,165 @@ html {
   height: 100%;
   width: 100%;
 }
+body{
+  background-color:	#9CABCC;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+}
+.header {
+  display: flex;
+  justify-content: space-between; /* Izvieto attēlu pa kreisi, tekstu pa labi */
+  align-items: flex-start;        /* Izlīdzina elementus augšējā līnijā */
+  padding: 10px;
+}
+
+.logo-bloks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Izlīdzina attēlu un tekstu vertikāli */
+ margin: 0px;
+  margin-right: 0px;   /* Atstarpe starp attēlu un tekstu */
+}
+
+
+.header-img {
+  width: 400px;
+  height: 200px;
+  padding-top: 0px;
+  margin-left: -45px;
+  margin-bottom: -40px;
+  margin-top: -50px;
+  margin-right: -10px;
+}
+
+.zem-logo {
+  margin-top: 0px;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.sakums-item{
+  color: #EA4335;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 0px;
+  display: flex;
+  gap: 20px;
+}
+  
+.inline-list {
+  list-style: none; /* Noņemt aizzīmes */
+  padding: 0px; /* Noņemt iekšējo atkāpi */
+  margin: 20px; /* Noņemt ārējo atkāpi */
+  display: flex; /* Izkārto vienā rindā */
+  gap: 90px; /* Attēlums starp vienumiem */
+  font-size: 30px;
+}
+
+.grid-container {
+display: grid;
+  grid-template-columns: repeat(3,1fr); /* 3 kolonnas */
+  grid-gap: 20px;
+  margin: auto;
+}
+
+.block {
+background-color: #D9D9D9;
+  width: 300px;
+  height: 150px;
+  margin-left: 50px;
+  padding: 20px;
+  font-size: 20px;
+}
+.grid-container1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 40px;
+  background-color: #D9D9D9;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  justify-content: space-around;
+}
+
+.box {
+  background-color: #D9D9D9;
+  height: 150px;
+  width: 150px;
+ 
+}
+.footer {
+  bottom: 0;
+  left: -2px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  width: 98%;
+  padding: 20px;
+  background-color: #FFE1E1;
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+.login-box {
+width: 680px;
+height: 330px;
+margin: 80px auto;
+  margin-top: 5px;
+padding: 30px;
+background-color: #D9D9D9;
+text-align: center;
+}
+
+.login-box h3 {
+margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold; 
+}
+
+.login-box label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.login-box input {
+  width: 600px;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #FFE1E1;
+}
+
+.login-box button {
+  width: 600px;
+  padding: 20px;
+  background-color: #FFE1E1;
+  font-weight: bold;
+  cursor: pointer;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
