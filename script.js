@@ -1,10 +1,13 @@
 
 function login(){
-  const user = document.getElementById("user").value;
-  const pass = document.getElementById("pass").value;
-  if(user=="darta" && pass=="12345"){
-    alert("Jūs esat veiksmīgi ielogojušies!");
-}else{
-    alert("Nepareizs lietotājvārds, vai parole!");
+  const username = document.getElementById("username").value;
+  const password = document.getElementById("password").value;
+  
+  if(username === 'darta' && password === '12345'){
+    document.getElementById('massage').innerText = 'Jūs esat veiksmīgi peslēgušies!';
+    
+}
+  else {
+  document.getElementById('massage').innerText = 'Nepareizs lietotājvārds, vai parole!';
 }
 }
